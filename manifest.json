@@ -1,0 +1,14 @@
+{
+   "manifest_version": 2,
+   "name": "Twitch 1080p fixer",
+   "description": "Twitch 1080p fixer",
+   "version": "1.0",
+   "author": "pinebudweiser",
+   "permissions": [ "<all_urls>", "webRequest", "webRequestBlocking", "tabs" ],
+   "background": {
+      "scripts": ["bg.js"]
+   },
+   "icons": {
+      "128": "twitch-128.png"
+   }
+}
